@@ -1,3 +1,7 @@
+# Usage:
+# Add following line(s) in "Preferences/Settings-User":
+# {"keys": ["alt+f7"], "command": "trim_lines"},
+
 import sublime, sublime_plugin, re 
   
 class TrimLinesCommand(sublime_plugin.TextCommand):  

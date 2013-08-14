@@ -1,3 +1,8 @@
+# Usage:
+# Add following line(s) in "Preferences/Settings-User":
+# {"keys": ["alt+f6"], "command": "git_operate", "args" : {"action" : "add"}},
+# {"keys": ["alt+f5"], "command": "git_operate", "args" : {"action" : "rm -f"}},
+
 import sublime, sublime_plugin  
 
 def removeNonAscii(s): return "".join(i for i in s if ord(i)<128)

@@ -1,3 +1,7 @@
+# Usage:
+# Add following line in "Preferences/Settings-User":
+# { "keys": ["alt+enter"], "command": "find_in_files_goto"},
+
 import sublime
 import sublime_plugin
 import re

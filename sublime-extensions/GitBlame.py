@@ -1,3 +1,7 @@
+# Usage:
+# Add following line in "Preferences/Settings-User":
+# {"keys": ["alt+f11"], "command": "git_blame", "args": {"seeCommit": true}},
+
 import sublime, sublime_plugin  
 
 def removeNonAscii(s): return "".join(i for i in s if ord(i)<128)
